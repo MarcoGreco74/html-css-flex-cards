@@ -17,10 +17,8 @@ main {
 }
 section p {
     text-align: center;
-    margin: 40px 0px;
-    border: 1px solid black; 
-    background-color: aqua;
-    height: 60px;
+    margin: 40px 0px; 
+    height: 60px; 
 }
 #container {
     display: flex;
@@ -33,35 +31,34 @@ img {
 }
 #container > div {
     display: flex; 
-    /*color: white;*/
     background-color:black;
     width: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
+    box-shadow: 2px 2px grey;
 }
 .user-info {
     display: flex;
     flex-direction: column;
-    background-color:burlywood;
-    border: 2px solid red;
+    margin: 2px;
 }
 .name {
-    background-color: white;
-    padding: 3px;
+    color: white;
+    padding: 3px; 
     margin: 2px; 
 }
 .job {
-    background-color: white;
+    color: white;
     padding: 3px;
     margin: 2px;
-    width: 80px;
+    width: 110px;
+    font-size:x-small;
 }
 .email {
     font-size: small;
-    /*color:dodgerblue;*/
-    background-color: dodgerblue;
-    padding: 3px;
-    margin: 2px;
-    width: 140px;
+    color:dodgerblue;
+    padding: 3px; 
+    margin: 2px;  
+    width: 140px; 
 }
 
 
